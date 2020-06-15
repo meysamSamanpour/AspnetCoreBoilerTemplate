@@ -61,13 +61,18 @@ You need to have these models in two places, in your api solution and in your cl
 This package will read all your model in a specific folder 
 You need to 
 1- create a project 
+
 2- remove any file in there and then edit the project file 
+
 3- this is how you set the working and out put directory : 
+
 
     <Target Name="Convert" BeforeTargets="PrepareForBuild">
         <ConvertMain WorkingDirectory="../Meys.Common/Dtos/" ConvertDirectory="../../clientApp/"/>
       </Target>
+      
 4- remove the project from the build list of the solution, because you dont want all the model to be built every time you build your project. 
+
 5- when you are changing a model or create a new model, then you build the dto maker manually and you will get the changes in the out put folder. 
 
 
