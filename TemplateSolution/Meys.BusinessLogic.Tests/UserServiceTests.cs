@@ -64,21 +64,15 @@ namespace Meys.Service.Tests
         }
 
         [TestMethod]
-        public void VerifyPassword_ShouldCallVerifyPassword()
+        public void VerifyPassword_ShouldCall_VerifyPassword_SaveChanges()
         {
             var email = "blabla@bla.com";
             var password = "password";
 
             _service.Authenticate(email, password);
-            _hashService.Verify(x => x.Verify(It.IsAny<string>(), It.IsAny<string>()), Times.Once); 
-            _unitOfWork
-        }
 
-        [TestMethod]
-        public void AddNewUser_ShouldCallSaveChanges_OfUnitOfWork()
-        {
-            var model = GenerateUserModel(); 
-            _service
+            _hashService.Verify(x => x.Verify(It.IsAny<string>(), It.IsAny<string>()), Times.Once);
+            _unitOfWork.Verify(x => x.SaveChanges(), Times.Once); 
         }
 
         private AddNewUserDto GenerateUserModel() =>

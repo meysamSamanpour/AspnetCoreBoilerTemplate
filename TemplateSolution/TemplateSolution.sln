@@ -11,13 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Service", "2.Service", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meys.Data", "Meys.Data\Meys.Data.csproj", "{E081390D-5FC1-4E06-9207-0552B9927B83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meys.Domain", "Meys.Domain\Meys.Domain.csproj", "{D73CD739-B46A-4771-B7BC-985D97CFFBEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meys.Domain", "Meys.Domain\Meys.Domain.csproj", "{D73CD739-B46A-4771-B7BC-985D97CFFBEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meys.Service", "Service\Meys.Service.csproj", "{1017C7A7-85C0-4631-8145-552492533AE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meys.Service", "Service\Meys.Service.csproj", "{1017C7A7-85C0-4631-8145-552492533AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meys.Common", "Meys.Common\Meys.Common.csproj", "{FC925DD4-3165-4756-B596-385820E3BB39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meys.Common", "Meys.Common\Meys.Common.csproj", "{FC925DD4-3165-4756-B596-385820E3BB39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meys.Service.Tests", "Meys.BusinessLogic.Tests\Meys.Service.Tests.csproj", "{95E0C152-259D-4B7E-9671-7D7B120050D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meys.Service.Tests", "Meys.BusinessLogic.Tests\Meys.Service.Tests.csproj", "{95E0C152-259D-4B7E-9671-7D7B120050D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meys.DtoMaker", "Meys.DtoMaker\Meys.DtoMaker.csproj", "{1668DE48-7D80-45FB-AB24-1B9E1E05BC0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,8 @@ Global
 		{95E0C152-259D-4B7E-9671-7D7B120050D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95E0C152-259D-4B7E-9671-7D7B120050D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95E0C152-259D-4B7E-9671-7D7B120050D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1668DE48-7D80-45FB-AB24-1B9E1E05BC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1668DE48-7D80-45FB-AB24-1B9E1E05BC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +63,7 @@ Global
 		{1017C7A7-85C0-4631-8145-552492533AE6} = {AB275FAC-DE6C-499C-ADC1-18EAF9492570}
 		{FC925DD4-3165-4756-B596-385820E3BB39} = {AB275FAC-DE6C-499C-ADC1-18EAF9492570}
 		{95E0C152-259D-4B7E-9671-7D7B120050D7} = {AB275FAC-DE6C-499C-ADC1-18EAF9492570}
+		{1668DE48-7D80-45FB-AB24-1B9E1E05BC0B} = {AB275FAC-DE6C-499C-ADC1-18EAF9492570}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A73DA510-CDB1-413C-A8F9-B4DDA4739448}

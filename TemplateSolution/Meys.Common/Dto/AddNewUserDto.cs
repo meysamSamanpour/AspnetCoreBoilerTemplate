@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Meys.Common
+namespace Meys.Common.Dto
 {
     public class AddNewUserDto
     {
