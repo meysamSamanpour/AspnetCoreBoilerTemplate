@@ -1,13 +1,9 @@
 # Aspnet Core 3.1 + Angular 9+ Boilerplate
 
 
-
-<p style="color:red">
-	Please note: This template is still under development
-</p>
-
-
-
+```diff
+- Please note: This template is still under development
+```
 
 This is an asp.net core + Angular 9 Boilerplate 
 
@@ -22,6 +18,7 @@ This Boilerplate is a monolithic application works as Asp.net Core and Angualr 9
 # **Asp.net Core API:**
 
 An Asp.net core 3 simple api project. We create the asp.net core project separately as a back-end for the Angular app. 
+
 
 **Naming and structure:** 
 
